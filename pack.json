@@ -1,0 +1,14 @@
+{
+    "name": "orchestra-mcp/pack-essentials",
+    "description": "Core project management skills and agents for any Orchestra project",
+    "version": "0.1.0",
+    "type": "pack",
+    "license": "MIT",
+    "stacks": ["*"],
+    "contents": {
+        "skills": ["project-manager", "qa-testing", "docs", "plugin-generator"],
+        "agents": ["scrum-master", "devops", "qa-playwright"],
+        "hooks": ["orchestra-mcp-hook"]
+    },
+    "tags": ["core", "essential", "project-management", "qa", "docs"]
+}
